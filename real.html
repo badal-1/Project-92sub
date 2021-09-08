@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>
+https://MathQuiz.com/play
+</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: red;">
+<h4 id="player1_name" style="text-align: left;"></h4> <span id="player1_score"style="text-align: left;"></span>
+<br/>
+<h4 id="player2_name"style="text-align: left;"></h4> <span id="player2_score"style="text-align: left;"></span>
+<div class="container">
+<center>
+<h2 style="color:orange; text-align: center;">Let's play</h2>
+<h4 id="Question_Turn"style="text-align: center;">Question Turn- </h4> <span style="text-align: center;" id="Player_who_has_to_Question_the_other_player_name"></span>
+<br/>
+<h4 id="Answer_Turn" style="text-align: center;">Answer Turn- </h4> <span style="text-align: center;" id="Player_who_has_to_Answer_the_other_player_name"></span>
+</center>
+</div>
+<div id="output" style="background: yellow; border-radius: 10px; border-top: 10px solid #002fff; padding: 10px; float:none; text-align: left;">
+</div>
+<br>
+<h4 class='ki' style="color: yellow;">Number-</h4>
+<input class="form-control" id="n1" placeholder="Number1" type="number" style="background-color: black; color: red; ">
+<br>
+<h4 class='ki' style="color: yellow;">Number-</h4>
+<input class="form-control" id="n2" placeholder="Number2" type="number" style="background-color: black; color: red;">
+<br>
+<center>
+<button class="btn btn-success" style="color: yellow; text-align: center;" onclick="send();">Send</button>
+</center>
+</body>
+<script src="real.js"></script>
+</html>
